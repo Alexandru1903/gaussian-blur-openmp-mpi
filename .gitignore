@@ -5,13 +5,8 @@
 *.o
 *.out
 
-# Image files (Datasets shouldn't be tracked in Git)
-*.jpg
-*.jpeg
-*.png
-
 # Executable files
-secvential_app
-openmp_app
-mpi_app
-hibrid_app
+secvential
+openmp
+mpi
+hibrid
