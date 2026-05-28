@@ -10,3 +10,6 @@ sequential
 openmp
 mpi
 hibrid
+
+# Output images
+out.png

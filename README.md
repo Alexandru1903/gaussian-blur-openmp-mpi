@@ -21,3 +21,7 @@ This project was built and tested on an **Apple Silicon M4 (10-Core CPU)**. To c
 
 ## How to Run
 An automated bash script (`benchmark.sh`) is included to easily compile all implementations and run the full suite of benchmarks (Strong Scaling, Weak Scaling, and Batch Processing).
+
+1. Make the script executable:
+   ```bash
+   chmod +x benchmark.sh
