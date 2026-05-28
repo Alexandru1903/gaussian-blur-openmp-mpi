@@ -6,7 +6,7 @@
 *.out
 
 # Executable files
-secvential
+sequential
 openmp
 mpi
 hibrid
