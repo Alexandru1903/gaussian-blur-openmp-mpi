@@ -5,9 +5,9 @@ OMP_FLAGS="-Xpreprocessor -fopenmp -I/opt/homebrew/opt/libomp/include -L/opt/hom
 OUT="out.png"
 
 # Choosing 5 images to prove what's required:
-IMG_1080="1080_1.png"                           # For Weak Scaling
-IMG_2K_BATCH=("2k_1.png" "2k_2.png" "2k_3.png") # For Batch / Weak Scaling
-IMG_4K="4k_1.jpg"                               # For Strong Scaling / Speedup
+IMG_1080="images/1080_1.png"                           # For Weak Scaling
+IMG_2K_BATCH=("images/2k_1.png" "images/2k_2.png" "images/2k_3.png") # For Batch / Weak Scaling
+IMG_4K="images/4k_1.jpg"                               # For Strong Scaling / Speedup
 
 echo "Compiling"
 g++ sequential.cpp -o sequential
